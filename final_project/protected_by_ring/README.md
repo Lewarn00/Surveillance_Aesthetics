@@ -4,8 +4,7 @@ This instillation art piece aimed to bring awareness to Amazon products’ data 
 
 This project utilizes the ring_doorbell api to interact with a Ring doorbell. When a user presses the doorbell, an image is downloaded from the Ring doorbell. Face cropping is then attempted. After, the image goes through style transfer via the STROTTS (https://arxiv.org/abs/1904.12785) model, the final results of which can be seen below:
 
-Content image:![main_portrait](https://user-images.githubusercontent.com/43860983/148039935-42858077-1625-4172-ad19-3f4392cd6a34.png)
-
+Content image:
 ![scene_me](https://user-images.githubusercontent.com/43860983/148039535-ebbacb22-787c-4f9b-ba17-db194bc51a01.jpg)
 
 Style image:
