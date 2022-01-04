@@ -1,4 +1,4 @@
-# Spy Art Gallery
+# Ring Art Gallery
 
 This instillation art piece aimed to bring awareness to Amazon products’ data collection (specifically the Ring doorbell). The average consumer believes that surveillance data has little-to-no value. To challenge this mentality, we used a machine learning model to render Ring doorbell surveillance images in the style of famous artwork. Thus, our exhibit displays Ring doorbell images as priceless works of art.
 
