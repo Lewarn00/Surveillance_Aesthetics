@@ -1,0 +1,73 @@
+PODS:
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - AWAREFramework (1.12.2):
+    - AWAREFramework/Core (= 1.12.2)
+  - AWAREFramework/Core (1.12.2):
+    - GoogleSignIn (~> 5.0)
+    - ios-ntp (~> 1.1)
+    - SCNetworkReachability (~> 2.0)
+    - TPCircularBuffer (~> 1.6)
+  - AWAREFramework/HealthKit (1.12.2):
+    - AWAREFramework/Core
+  - AWAREFramework/Microphone (1.12.2):
+    - AWAREFramework/Core
+  - AWAREFramework/MotionActivity (1.12.2):
+    - AWAREFramework/Core
+  - CocoaAsyncSocket (7.6.5)
+  - GoogleSignIn (5.0.2):
+    - AppAuth (~> 1.2)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - ios-ntp (1.1.9):
+    - CocoaAsyncSocket
+  - macros_blocks (0.0.4):
+    - macros_blocks/core (= 0.0.4)
+  - macros_blocks/core (0.0.4)
+  - SCNetworkReachability (2.0.6):
+    - SCNetworkReachability/Core (= 2.0.6)
+  - SCNetworkReachability/Core (2.0.6):
+    - macros_blocks (~> 0.0.1)
+  - TPCircularBuffer (1.6.1)
+
+DEPENDENCIES:
+  - AWAREFramework (~> 1.12)
+  - AWAREFramework/HealthKit (~> 1.12)
+  - AWAREFramework/Microphone (~> 1.12)
+  - AWAREFramework/MotionActivity (~> 1.12)
+
+SPEC REPOS:
+  trunk:
+    - AppAuth
+    - AWAREFramework
+    - CocoaAsyncSocket
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - ios-ntp
+    - macros_blocks
+    - SCNetworkReachability
+    - TPCircularBuffer
+
+SPEC CHECKSUMS:
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  AWAREFramework: e73d7753383b275829bbc80359770932b55cfd11
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  GoogleSignIn: 7137d297ddc022a7e0aa4619c86d72c909fa7213
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  ios-ntp: 49a4ef0866aee5343627710c1c7de71d7c064417
+  macros_blocks: cf3ff5810b798f462def9f1e3999817dc45cf2df
+  SCNetworkReachability: dbb0150b1a7a4579e148420132da19e718b955ce
+  TPCircularBuffer: c13243556527551c4d320709c7b14a6d20cdc30a
+
+PODFILE CHECKSUM: bcd5773e2640fa2256edf41aeca8dbe1fbb5e311
+
+COCOAPODS: 1.11.2

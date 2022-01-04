@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+<style>
+ body{
+    background-image:url('eye.png');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+
+<html>
+  <body>
+    <div class="container" style="text-align: center;">
+      <h1>Monitor your own browsing patterns. See what they see.</h1>
+    </div>
+    <div class="container" style="float: left; width: 50%;">
+        <h3>Here are your all-time most visited sites:</h3>
+        <div id="sites">
+        </div>
+    </div>
+    <div class="container" style="float: right; width: 50%;"> 
+      <h3>Here is the activity this extension has seen:</h3>
+      <h4 style="padding-left: 50px">Top navigated sites:</h4>
+      <ul id="hosts" style="padding-left: 100px; margin-top: -20px;">
+      </ul>
+      <h4 style="padding-left: 50px">Top navigation methods:</h4>
+      <ul id="types" style="padding-left: 100px; margin-top: -20px;">
+      </ul>
+    </div> 
+    <div class="container" style="position: absolute; bottom: 0; text-align: center; width: 100%; color: white;">
+      <div id="system-info">
+      </div> 
+    </div>   
+    <script src="sites.js"></script>
+    <script src="systeminfo.js"></script>
+    <script src="fetch.js"></script>
+  </body>
+</html>
